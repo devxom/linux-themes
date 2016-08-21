@@ -1,0 +1,18 @@
+!-------------------------------------------------------------------------------
+! Dunst Color theme Solorized >> ~/.config/dunst/dunstrc
+!-------------------------------------------------------------------------------
+[frame]
+    width = 2
+    color = "#FAFAFA"
+[urgency_low]
+    background = "#EEE8D5"
+    foreground = "#586E75"
+    timeout = 5
+[urgency_normal]
+    background = "#EEE8D5"
+    foreground = "#586E75"
+    timeout = 5
+[urgency_critical]
+    background = "#DC322F"
+    foreground = "#FDF6E3"
+    timeout = 10

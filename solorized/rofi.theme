@@ -1,0 +1,8 @@
+!-------------------------------------------------------------------------------
+! ROFI Color theme Solorized >> ~/.Xresourse
+!-------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #EEE8D5, #EEE8D5, #003642
+rofi.color-normal: #EEE8D5, #819396, #EEE8D5, #b58900, #003642
+rofi.color-active: #EEE8D5, #008ed4, #EEE8D5, #003642, #008ed4
+rofi.color-urgent: #EEE8D5, #da4281, #EEE8D5, #003642, #da4281

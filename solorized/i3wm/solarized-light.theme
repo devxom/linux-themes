@@ -1,0 +1,35 @@
+#-------------------------------------------------------------------------------
+# i3wm Color theme Solorized >> ~/.config/i3/config
+#-------------------------------------------------------------------------------
+
+# Variables for colors
+set $bg-color            #FDF6E3
+set $text-color          #B58900
+set $inactive-bg-color   #FDF6E3
+set $inactive-text-color #586E75
+set $active-bg-color     #FDF6E3
+set $active-text-color   #586E75
+set $urgent-bg-color     #DC322F
+set $urgent-text-color   #FAFAFA
+set $indicator           #268BD2
+set $text-color-rofi     #FAFAFA
+
+bar{
+  colors {
+    background $bg-color
+    statusline #586E75
+    separator  #586E75
+    #                  border                 background           text
+    focused_workspace  $text-color            $bg-color            $text-color
+    active_workspace   $inactive-text-color   $active-bg-color     $active-text-color
+    inactive_workspace $inactive-bg-color     $inactive-bg-color   $inactive-text-color
+    urgent_workspace   $urgent-bg-color       $urgent-bg-color     $urgent-text-color
+  }
+}
+
+# window colors
+#                       border              background          text                  indicator
+client.focused          $text-color         $bg-color           $text-color           $indicator
+client.unfocused        $inactive-bg-color  $inactive-bg-color  $inactive-text-color  $indicator
+client.focused_inactive $inactive-bg-color  $inactive-bg-color  $inactive-text-color  $indicator
+client.urgent           $urgent-bg-color    $urgent-bg-color    $text-color           $indicator
